@@ -7,4 +7,53 @@ Universal Styling
   margin: 0;
   padding: 0;
   border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1025px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+/*======================================
+
+Positional Styling
+
+======================================*/
+.container {
+  position: relative;
+}
+
+.left-side,
+.right-side {
+  position: absolute;
+  display: inline-block;
+}
+
+/*======================================
+
+Menu Styling
+
+======================================*/
+header {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.left-side {
+  padding: 20px;
+}
+
+.right-side ul {
+  list-style: none;
+  width: 60%;
+}
+
+.right-side ul li a {
+  display: inline-block;
 }
