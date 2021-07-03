@@ -10,14 +10,15 @@ Universal Styling
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Open Sans', helvetica, sans-serif;
-}
-
 .container {
   max-width: 1025px;
   margin: 0 auto;
   min-height: 100vh;
+}
+
+
+body {
+  font-family: 'Open Sans', helvetica, sans-serif;
 }
 
 /*======================================
@@ -25,14 +26,13 @@ body {
 Positional Styling
 
 ======================================*/
-.container {
+main {
   position: relative;
 }
 
-.left-side,
-.right-side {
+header {
   position: absolute;
-  display: inline-block;
+  width: 120%;
 }
 
 /*======================================
@@ -41,19 +41,36 @@ Menu Styling
 
 ======================================*/
 header {
-  max-width: 90%;
+  max-width: 120%;
   margin: 0 auto;
+  z-index: 99;
+  padding: 30px;
 }
 
 .left-side {
-  padding: 20px;
-}
-
-.right-side ul {
-  list-style: none;
-  width: 60%;
-}
-
-.right-side ul li a {
   display: inline-block;
+  width: 30%;
+}
+
+.right-side {
+  display: inline-block;
+  width: 67%;
+  vertical-align: top;
+  margin: 20px 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 0px 30px;
+  font-weight: bold;
+  text-alignment: right;
 }
