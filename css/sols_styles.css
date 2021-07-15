@@ -29,8 +29,8 @@ body {
 }
 
 nav a:hover {
-  color: #19181C;
-  opacity: 80%;
+  color: #275F81;
+  opacity: 100%;
   font-weight: bolder;
 }
 
@@ -59,7 +59,7 @@ Menu Styling
 .left-side {
   display: inline-block;
   width: 15%;
-  opacity: 90%;
+  opacity: 75%;
   margin-left: 10px;
 }
 
@@ -82,8 +82,8 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: white;
-  opacity: 85%;
+  color: #19181C;
+  opacity: 90%;
   padding: 0px 32px;
   font-size: 17px;
   font-weight: bold;
