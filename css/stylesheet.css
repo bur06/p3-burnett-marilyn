@@ -15,11 +15,18 @@ Universal Styling
   margin: 0 auto;
   min-height: 100vh;
   object-fit: cover;
+  z-index: 2;
 }
 
 
 body {
   font-family: 'Open Sans', helvetica, sans-serif;
+  min-height: 100vh;
+  object-fit: cover;
+}
+
+.background {
+  width: 100%;
 }
 
 /*======================================
@@ -27,13 +34,16 @@ body {
 Positional Styling
 
 ======================================*/
-main {
+.container {
   position: relative;
 }
 
 header {
   position: absolute;
-  width: 100%;
+  min-width: 100%;
+  z-index: 99;
+  margin: 0 auto;
+  padding: 25px;
 }
 
 /*======================================
@@ -41,28 +51,24 @@ header {
 Menu Styling
 
 ======================================*/
-header {
-  max-width: 100%;
-  margin: 0 auto;
-  z-index: 99;
-  padding: 35px;
-}
-
 .left-side {
   display: inline-block;
-  width: 30%;
-  margin-left: 15px;
+  width: 15%;
+  opacity: 90%;
+  margin-left: 10px;
 }
 
 .right-side {
   display: inline-block;
-  width: 67%;
+  width: 82%;
+  margin-top: 18px;
   vertical-align: top;
-  margin: 20px 10px;
+  text-align: right;
 }
 
 nav ul {
   list-style: none;
+  white-space: nowrap;
 }
 
 nav ul li {
@@ -72,8 +78,8 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: white;
-  padding: 0px 38px;
-  font-size: 20px;
+  opacity: 85%;
+  padding: 0px 32px;
+  font-size: 17px;
   font-weight: bold;
-  text-alignment: right;
 }
