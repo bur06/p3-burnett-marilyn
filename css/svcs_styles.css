@@ -58,7 +58,7 @@ Menu Styling
 .left-side {
   display: inline-block;
   width: 15%;
-  opacity: 85%;
+  opacity: 75%;
   margin-left: 10px;
 }
 
@@ -81,8 +81,8 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #404140;
-  opacity: 95%;
+  color: white;
+  opacity: 85%;
   padding: 0px 32px;
   font-size: 18px;
   font-weight: bold;
