@@ -29,16 +29,17 @@ header a:hover {
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 1.0556em;
   font-weight: bold;
   top: 0;
-  padding: 15px 0 5px;
+  padding: 43px 0 5px;
   align: left;
 }
 
 p {
-  font-size: 16px;
+  font-size: 0.8889em;
   align: left;
+  line-height: 130%;
 }
 
 /*======================================
@@ -78,9 +79,9 @@ header {
 
 .content {
   float: right;
-  margin-top: 10%;
-  width: 53%;
-  margin-right: 11%;
+  margin-top: 8%;
+  width: 48%;
+  margin-right: 16%;
   vertical-align: baseline;
 }
 
@@ -118,6 +119,6 @@ nav ul li a {
   color: #404140;
   opacity: 95%;
   padding: 0px 32px;
-  font-size: 18px;
+  font-size: 1.1111em;
   font-weight: bold;
 }
