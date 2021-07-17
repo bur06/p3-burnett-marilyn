@@ -10,18 +10,13 @@ Universal Styling
   box-sizing: border-box;
 }
 
-.container {
+body {
+  font-family: 'Open Sans', helvetica, sans-serif;
   max-width: 1920px;
   margin: 0 auto;
   min-height: 100vh;
   object-fit: cover;
   z-index: 2;
-}
-
-body {
-  font-family: 'Open Sans', helvetica, sans-serif;
-  min-height: 100vh;
-  object-fit: cover;
 }
 
 .background {
@@ -33,13 +28,27 @@ header a:hover {
   font-weight: bolder;
 }
 
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  top: 0;
+  padding: 15px 0 5px;
+  align: left;
+}
+
+p {
+  font-size: 16px;
+  align: left;
+}
+
 /*======================================
 
 Positional Styling
 
 ======================================*/
-.container {
+.background {
   position: relative;
+  opacity: 80%;
 }
 
 header {
@@ -48,6 +57,31 @@ header {
   z-index: 99;
   margin: 0 auto;
   padding: 25px;
+}
+
+.solutions {
+  position: absolute;
+  margin: 0 auto;
+  min-width: 100%;
+  top: 0;
+  vertical-align: bottom;
+  z-index: 95;
+}
+
+.sidebar {
+  float: left;
+  width: 13%;
+  margin-left: 19%;
+  margin-top: 9%;
+  vertical-align: baseline;
+}
+
+.content {
+  float: right;
+  margin-top: 10%;
+  width: 53%;
+  margin-right: 11%;
+  vertical-align: baseline;
 }
 
 /*======================================
