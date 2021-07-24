@@ -33,6 +33,22 @@ header a:hover {
   font-weight: bolder;
 }
 
+h2 {
+  font-size: 1.0556em;
+  font-weight: bold;
+  padding: 8px 10px 0;
+  align: left;
+  color: white;
+}
+
+p {
+  font-size: 0.8889em;
+  padding: 11px;
+  align: left;
+  line-height: 185%;
+  color: white;
+}
+
 /*======================================
 
 Positional Styling
@@ -45,9 +61,21 @@ Positional Styling
 header {
   position: absolute;
   min-width: 100%;
-  z-index: 99;
   margin: 0 auto;
+  margin-bottom: 10px;
   padding: 25px;
+  z-index: 99;
+}
+
+.svcs_content {
+  position: absolute;
+  margin: 0 auto;
+  width: 80%;
+  height: 78%;
+  bottom: 0;
+  margin-left: 110px;
+  vertical-align: bottom;
+  z-index: 99;
 }
 
 /*======================================
@@ -86,4 +114,23 @@ nav ul li a {
   padding: 0px 32px;
   font-size: 1.1111em;
   font-weight: bold;
+}
+/*======================================
+
+Column Styling
+
+======================================*/
+.column1,
+.column2,
+.column3 {
+  float: left;
+  width: 28%;
+  padding: 25px;
+  margin-left: 45px;
+  vertical-align: bottom;
+  bottom: 0;
+  background-color: rgb(55, 39, 33);
+  opacity: 80%;
+  border-radius: 9px 9px 115px 9px;
+  z-index: 90;
 }
