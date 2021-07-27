@@ -74,6 +74,17 @@ img.dropcap {
   margin-right: 8px;
 }
 
+.gradient {
+  background: linear-gradient(rgba(39, 95, 129, 0), rgba(39, 95, 129, .3), rgba(39, 95, 129, .7), rgba(39, 95, 129, .8), rgba(39, 95, 129, .9), rgba(39, 95, 129, 1));
+  position: absolute;
+  width: 65px;
+  height: 86%;
+  bottom: 0;
+  vertical-align: bottom;
+  margin-left: 32px;
+  z-index: 99;
+}
+
 /*======================================
 
 Menu Styling
