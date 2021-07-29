@@ -21,7 +21,7 @@ Universal Styling
 body {
   font-family: 'Open Sans', helvetica, sans-serif;
   min-height: 100vh;
-  object-fit: cover;
+  background: url('../images/wood_red.jpg');
 }
 
 .background {
@@ -69,14 +69,15 @@ header {
 }
 
 .svcs_content {
-  position: absolute;
   margin: 0 auto;
   width: 84%;
   top: 0;
-  margin-left: 120px;
-  margin-top: 250px;
-  display: flex;
   z-index: 99;
+}
+
+.container {
+  padding-top: 300px;
+  box-sizing: border-box;
 }
 
 /*======================================
@@ -125,7 +126,6 @@ Column Styling
 .column1,
 .column2,
 .column3 {
-  float: left;
   width: 28%;
   margin-left: 40px;
   padding: 24px 20px 50px 30px;
@@ -133,8 +133,10 @@ Column Styling
   opacity: 80%;
   border-radius: 5px;
   box-shadow: 2px 3px 3px 0 black;
-  align-self: flex-end;
   z-index: 90;
+  display: inline-block;
+  min-height: 300px;
+  vertical-align: top;
 }
 
 /*======================================
