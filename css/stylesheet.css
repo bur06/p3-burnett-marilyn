@@ -24,7 +24,8 @@ body {
   object-fit: cover;
 }
 
-.mainbground {
+.mainbground,
+.solbground {
   width: 100%;
 }
 
@@ -38,7 +39,8 @@ header a:hover {
 Positional Styling
 
 ======================================*/
-.container {
+.mainbground,
+.solbground {
   position: relative;
 }
 
@@ -49,6 +51,32 @@ header {
   margin: 0 auto;
   padding: 25px;
 }
+
+.solutions {
+  position: absolute;
+  margin: 0 auto;
+  min-width: 100%;
+  top: 0;
+  vertical-align: bottom;
+  z-index: 95;
+}
+
+.sidebar {
+  float: left;
+  width: 13%;
+  margin-left: 19%;
+  margin-top: 9%;
+  vertical-align: baseline;
+}
+
+.solcontent {
+  float: right;
+  margin-top: 8%;
+  width: 48%;
+  margin-right: 16%;
+  vertical-align: baseline;
+}
+
 
 /*======================================
 
@@ -81,9 +109,39 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: white;
-  opacity: 85%;
+  opacity: 88%;
   padding: 0px 32px;
   font-size: 1.1111em;
   font-weight: bold;
+}
+
+#navcolor {
+  color: white;
+}
+
+/*======================================
+
+Solutions Page Styling
+
+======================================*/
+.solbground {
+  opacity: 80%;
+}
+
+.solcontent h2 {
+  font-size: 1.0556em;
+  font-weight: bold;
+  top: 0;
+  padding: 43px 0 5px;
+  align: left;
+}
+
+.solcontent p {
+  font-size: 0.8889em;
+  align: left;
+  line-height: 130%;
+}
+
+#solcolor {
+  color: #404140;
 }
