@@ -25,7 +25,8 @@ body {
 }
 
 .mainbground,
-.solbground {
+.solbground,
+.svcsbground {
   width: 100%;
 }
 
@@ -40,7 +41,8 @@ Positional Styling
 
 ======================================*/
 .mainbground,
-.solbground {
+.solbground,
+.svcsbground {
   position: relative;
 }
 
@@ -75,6 +77,17 @@ header {
   width: 48%;
   margin-right: 16%;
   vertical-align: baseline;
+}
+
+.svcs_content {
+  position: absolute;
+  margin: 0 auto;
+  width: 84%;
+  top: 0;
+  margin-left: 120px;
+  margin-top: 250px;
+  display: flex;
+  z-index: 99;
 }
 
 
@@ -144,4 +157,59 @@ Solutions Page Styling
 
 #solcolor {
   color: #404140;
+}
+
+/*======================================
+
+Services Page Styling
+
+======================================*/
+.svcs_hdr {
+  background-color: rgba(55, 39, 33, 0.6);
+  box-shadow: 2px 3px 4px 0 black;
+}
+
+.svcs_content h2 {
+  font-size: 1.0556em;
+  font-weight: bold;
+  padding: 5px 0 6px 10px;
+  align: left;
+  color: white;
+}
+
+.svcs_content p {
+  font-size: 0.8889em;
+  padding: 11px;
+  align: left;
+  line-height: 190%;
+  color: white;
+}
+#svcscolor {
+  color: white;
+}
+
+.column1,
+.column2,
+.column3 {
+  float: left;
+  width: 28%;
+  margin-left: 40px;
+  padding: 24px 20px 50px 30px;
+  background-color: rgb(55, 39, 33);
+  opacity: 80%;
+  border-radius: 5px;
+  box-shadow: 2px 3px 3px 0 black;
+  align-self: flex-end;
+  z-index: 90;
+}
+
+.svcs_content h2:hover,
+.column1:hover,
+.column2:hover,
+.column3:hover {
+  height: 75px;
+  border-radius: 5px 55px 0 0;
+  color: rgb(247,210,165);
+  transition: height .5s ease;
+  overflow: hidden;
 }
