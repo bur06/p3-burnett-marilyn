@@ -26,7 +26,8 @@ body {
 
 .mainbground,
 .solbground,
-.svcsbground {
+.svcsbground,
+.cobground {
   width: 100%;
 }
 
@@ -42,7 +43,8 @@ Positional Styling
 ======================================*/
 .mainbground,
 .solbground,
-.svcsbground {
+.svcsbground,
+.cobground {
   position: relative;
 }
 
@@ -90,6 +92,22 @@ header {
   z-index: 99;
 }
 
+.co_content {
+  position: absolute;
+  margin: 0 auto;
+  width: 65%;
+  height: 78%;
+  bottom: 0;
+  margin-left: 250px;
+  vertical-align: bottom;
+  z-index: 99;
+}
+
+img.codropcap {
+  float: left;
+  width: 190px;
+  margin-right: 8px;
+}
 
 /*======================================
 
@@ -122,7 +140,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  opacity: 88%;
+  opacity: 90%;
   padding: 0px 32px;
   font-size: 1.1111em;
   font-weight: bold;
@@ -184,6 +202,7 @@ Services Page Styling
   line-height: 190%;
   color: white;
 }
+
 #svcscolor {
   color: white;
 }
@@ -212,4 +231,31 @@ Services Page Styling
   color: rgb(247,210,165);
   transition: height .5s ease;
   overflow: hidden;
+}
+
+/*======================================
+
+Company Page Styling
+
+======================================*/
+.co_content p {
+  font-size: 0.8889em;
+  align: left;
+  margin-top: 23px;
+  line-height: 170%;
+}
+
+#cocolor {
+  color: #404140;
+}
+
+.cogradient {
+  background: linear-gradient(rgba(39, 95, 129, 0), rgba(39, 95, 129, .3), rgba(39, 95, 129, .7), rgba(39, 95, 129, .8), rgba(39, 95, 129, .9), rgba(39, 95, 129, 1));
+  position: absolute;
+  width: 65px;
+  height: 86%;
+  bottom: 0;
+  vertical-align: bottom;
+  margin-left: 32px;
+  z-index: 99;
 }
