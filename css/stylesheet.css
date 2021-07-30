@@ -27,7 +27,8 @@ body {
 .mainbground,
 .solbground,
 .svcsbground,
-.cobground {
+.cobground,
+.supbground {
   width: 100%;
 }
 
@@ -44,7 +45,8 @@ Positional Styling
 .mainbground,
 .solbground,
 .svcsbground,
-.cobground {
+.cobground,
+.supbground {
   position: relative;
 }
 
