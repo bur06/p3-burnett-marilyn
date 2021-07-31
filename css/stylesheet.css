@@ -148,7 +148,7 @@ nav ul li a {
   font-weight: bold;
 }
 
-#navcolor {
+#navcolor li a{
   color: white;
 }
 
@@ -166,16 +166,14 @@ Solutions Page Styling
   font-weight: bold;
   top: 0;
   padding: 43px 0 5px;
-  align: left;
 }
 
 .solcontent p {
   font-size: 0.8889em;
-  align: left;
   line-height: 130%;
 }
 
-#solcolor {
+#solcolor li a{
   color: #404140;
 }
 
@@ -193,19 +191,17 @@ Services Page Styling
   font-size: 1.0556em;
   font-weight: bold;
   padding: 5px 0 6px 10px;
-  align: left;
   color: white;
 }
 
 .svcs_content p {
   font-size: 0.8889em;
   padding: 11px;
-  align: left;
   line-height: 190%;
   color: white;
 }
 
-#svcscolor {
+#svcscolor li a{
   color: white;
 }
 
@@ -242,12 +238,11 @@ Company Page Styling
 ======================================*/
 .co_content p {
   font-size: 0.8889em;
-  align: left;
   margin-top: 23px;
   line-height: 170%;
 }
 
-#cocolor {
+#cocolor li a{
   color: #404140;
 }
 
