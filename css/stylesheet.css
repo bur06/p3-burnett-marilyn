@@ -63,24 +63,21 @@ header {
   margin: 0 auto;
   min-width: 100%;
   top: 0;
-  vertical-align: bottom;
   z-index: 95;
 }
 
 .sidebar {
-  float: left;
-  width: 13%;
-  margin-left: 19%;
-  margin-top: 9%;
+  display: inline-block;
   vertical-align: baseline;
+  width: 165px;
+  margin: 145px 0 0 160px;
 }
 
 .solcontent {
-  float: right;
-  margin-top: 8%;
-  width: 48%;
-  margin-right: 16%;
-  vertical-align: baseline;
+  display: inline-block;
+  vertical-align: top;
+  margin: 100px 60px 0;
+  width: 50%;
 }
 
 .svcs_content {
