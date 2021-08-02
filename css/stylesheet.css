@@ -253,3 +253,41 @@ Company Page Styling
   margin-left: 32px;
   z-index: 99;
 }
+
+/*======================================
+
+Support Page Styling
+
+======================================*/
+.supgradient {
+  background: linear-gradient(to right, rgba(39, 95, 129, 0), rgba(39, 95, 129, .3), rgba(39, 95, 129, .7), rgba(39, 95, 129, .8), rgba(39, 95, 129, .9), rgba(39, 95, 129, 1));
+  position: absolute;
+  width: 100%;
+  height: 65px;
+  top: 3%;
+}
+
+.supgradient2 {
+  background: linear-gradient(to right, rgba(39, 95, 129, 1), rgba(39, 95, 129, .9), rgba(39, 95, 129, .8), rgba(39, 95, 129, .7), rgba(39, 95, 129, .3), rgba(39, 95, 129, 0));
+  position: fixed;
+  width: 100%;
+  height: 63px;
+  bottom: 4%;
+  vertical-align: baseline;
+  z-index: 99;
+}
+
+footer a:hover {
+ opacity: 50%;
+ font-weight: bolder;
+}
+
+.ftrtext {
+  display: inline-block;
+  text-decoration: none;
+  opacity: 90%;
+  margin: 19px 30px;
+  font-size: 1.1111em;
+  font-weight: bold;
+  color: white;
+}
