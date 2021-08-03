@@ -108,6 +108,27 @@ img.codropcap {
   margin-right: 8px;
 }
 
+.supcontent1 {
+  position: fixed;
+  float: left;
+  margin: 150px 675px 0 45px;
+}
+
+.supcontent2 {
+  position: fixed;
+  text-align: right;
+  float: right;
+  margin: 295px 435px 30px 450px;
+}
+
+.supcontent3 {
+  position: fixed;
+  text-align: left;
+  float: left;
+  bottom: 0;
+  margin: 25px 640px 100px 45px;
+}
+
 /*======================================
 
 Menu Styling
@@ -272,9 +293,24 @@ Support Page Styling
   position: fixed;
   width: 100%;
   height: 63px;
-  bottom: 4%;
+  bottom: 3%;
   vertical-align: baseline;
   z-index: 99;
+}
+
+.supgradient h2 {
+  font-size: 1.0556em;
+  font-weight: bold;
+  padding-bottom: 8px;
+  color: white;
+  opacity: 90%;
+}
+
+.supgradient p {
+  font-size: 0.8889em;
+  line-height: 130%;
+  color: white;
+  opacity: 90%;
 }
 
 footer a:hover {
@@ -286,7 +322,7 @@ footer a:hover {
   display: inline-block;
   text-decoration: none;
   opacity: 90%;
-  margin: 19px 30px;
+  margin: 19px 45px;
   font-size: 1.1111em;
   font-weight: bold;
   color: white;
