@@ -31,7 +31,8 @@ header {
   z-index: 99;
   margin: 0 auto;
   padding: 25px;
-  background-color: rgba(39, 95, 129, 1);
+  background-color: rgba(39, 95, 129, .8);
+  box-shadow: 1px 2px 3px 0 black;
 }
 
 .left-side {

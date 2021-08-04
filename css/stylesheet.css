@@ -376,6 +376,11 @@ Form Page Styling
   opacity: 75%;
 }
 
+.hdrcolor {
+  background-color: rgba(39, 95, 129, .7);
+  box-shadow: 1px 2px 3px 0 black;
+}
+
 .navcolor li a{
   color: white;
 }
@@ -421,7 +426,7 @@ textarea {
   padding: 7px 15px;
   border-radius: 8px;
   color: white;
-  border: 1px solid white;
+  border: 1.8px solid black;
   background-color: rgba(39, 95, 129, 1);
 }
 
