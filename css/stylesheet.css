@@ -29,7 +29,8 @@ body {
 .svcsbground,
 .cobground,
 .supbground,
-.formbground {
+.formbground,
+.galbground {
   width: 100%;
 }
 
@@ -48,7 +49,8 @@ Positional Styling
 .svcsbground,
 .cobground,
 .supbground,
-.formbground {
+.formbground,
+.galbground {
   position: relative;
 }
 
@@ -155,6 +157,12 @@ img.codropcap {
   margin-top: 240px;
   margin-left: 470px;
   color: white;
+}
+
+section.gallery img {
+  position: absolute;
+  display: inline-block;
+  width: 100px;
 }
 
 /*======================================
@@ -295,6 +303,11 @@ Company Page Styling
 
 .co_content p::before {
   content: "(QIG) ";
+}
+
+.co_content a {
+  color: rgba(39, 95, 129, 1);
+  font-weight: bold;
 }
 
 #cocolor li a{
@@ -438,4 +451,13 @@ textarea {
   font-size: 1.250em;
   font-weight: bolder;
   text-shadow: 2px 2px 1px black, -1.2px -1.2px 1px black, 0 0 3px black, 0 0 2px black;
+}
+
+/*======================================
+
+Gallery Styling
+
+======================================*/
+.gallery {
+  background-image: url(../images/midnightblue.jpg);
 }
