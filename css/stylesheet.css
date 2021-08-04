@@ -105,7 +105,7 @@ header {
 img.codropcap {
   float: left;
   width: 190px;
-  margin-right: 8px;
+  margin-right: 9px;
 }
 
 .supcontent1 {
@@ -175,7 +175,7 @@ nav ul li a {
 Solutions Page Styling
 
 ======================================*/
-.solbground {
+img.solbground {
   opacity: 80%;
 }
 
@@ -207,15 +207,15 @@ Services Page Styling
 
 .svcs_content h2 {
   font-size: 1.0556em;
-  font-weight: bold;
-  padding: 5px 0 6px 10px;
+  font-weight: bolder;
+  text-shadow: 2px 2px 5px black, 0 0 10px black, 0 0 5px black;
   color: white;
 }
 
 .svcs_content p {
   font-size: 0.8889em;
-  padding: 11px;
   line-height: 190%;
+  padding: 10px;
   color: white;
 }
 
@@ -226,10 +226,10 @@ Services Page Styling
 .column1,
 .column2,
 .column3 {
-  float: left;
+  display: inline-block;
   width: 28%;
   margin-left: 40px;
-  padding: 24px 20px 50px 30px;
+  padding: 24px 25px 50px 30px;
   background-color: rgb(55, 39, 33);
   opacity: 80%;
   border-radius: 5px;
@@ -238,15 +238,20 @@ Services Page Styling
   z-index: 90;
 }
 
-.svcs_content h2:hover,
+.svcs_content h2,
 .column1:hover,
 .column2:hover,
 .column3:hover {
-  height: 75px;
-  border-radius: 5px 55px 0 0;
-  color: rgb(247,210,165);
-  transition: height .5s ease;
-  overflow: hidden;
+  animation: grow 1.5s forwards ease;
+}
+
+@keyframes grow {
+  from {
+    transform: translateY(5px);
+  }
+  to {
+    transform: translateY(-70px);
+  }
 }
 
 /*======================================
@@ -256,8 +261,12 @@ Company Page Styling
 ======================================*/
 .co_content p {
   font-size: 0.8889em;
-  margin-top: 23px;
+  margin-top: 22px;
   line-height: 170%;
+}
+
+.co_content p::before {
+  content: "(QIG) ";
 }
 
 #cocolor li a{
