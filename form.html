@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L8D9SJL96V"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-L8D9SJL96V');
+    </script>
+
+    <title>QIG Contact Form</title>
+
+    <meta charset="utf-8">
+    <meta name="keywords" content="QIG email" />
+    <meta name="description" content="QIG email contact form" />
+
+    <!--favicon-->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!--styles-->
+    <link rel="stylesheet" href="css/stylesheet.css">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <div class="left-side">
+        <a href="index.html"><img src="images/ltrmark_white.gif" alt="Quarry Logo" width="60"/></a>
+      </div>
+
+      <nav class="right-side navcolor">
+        <ul>
+          <li><a href="solutions.html">SOLUTIONS</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="company.html">COMPANY</a></li>
+          <li><a href="support.html">SUPPORT</a></li>
+          <li><a href="tel:+15551234567">555-123-4567</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <!--optional heading
+        <h1>Contact Us</h1> -->
+        <img class="formbground" src="images/concreteblue.jpg" alt="Black Concrete" title="Contact Form" />
+        <div class="contacttext">
+          <p>We welcome your input - please complete the following information:</p>
+        </div>
+
+        <form class="contactform" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+          <div class="contactname spacing">
+            <label for="name" class="contactinfo">Full Name:</label>
+            <input type="text" name="name" id="name" />
+          </div>
+
+          <div class="contactemail spacing">
+            <label for="email" class="contactinfo">Email:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+
+          <div class="contactphone spacing">
+            <label for="phone" class="contactinfo">Phone:</label>
+            <input type="tel" name="phone" id="phone" />
+          </div>
+
+          <div class="contactinquiry spacing">
+            <label for="inquiry" class="contactinq"></label>
+            <textarea name="inquiry" id="inquiry" cols="54" rows="10" placeholder="Type Questions/Comments Here"></textarea>
+          </div>
+
+          <div class="contactsubmit spacing">
+            <input type="submit" value="Send"/>
+          </div>
+
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
