@@ -272,7 +272,7 @@ Services Page Styling
 .column1:hover,
 .column2:hover,
 .column3:hover {
-  animation: grow 1.5s forwards ease;
+  animation: grow 1.2s forwards ease;
 }
 
 @keyframes grow {

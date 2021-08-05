@@ -31,8 +31,6 @@ header {
   z-index: 99;
   margin: 0 auto;
   padding: 25px;
-  background-color: rgba(39, 95, 129, .8);
-  box-shadow: 1px 2px 3px 0 black;
 }
 
 .left-side {
@@ -42,6 +40,7 @@ header {
   margin-left: 10px;
 }
 
+/*========optional=========
 .right-side {
   display: inline-block;
   width: 82%;
@@ -70,14 +69,15 @@ nav ul li a {
 .navcolor li a{
   color: white;
 }
+===========================*/
 </style>
-
 
 <header>
   <div class="left-side">
-    <a href="index.html"><img src="images/ltrmark_white.gif" alt="Quarry Logo" width="60"/></a>
+    <a href="index.html"><img src="images/ltrmark_blksoft.gif" alt="Quarry Logo" width="60"/></a>
   </div>
 
+  <!--optional
   <nav class="right-side">
     <ul class="navcolor">
       <li><a href="solutions.html">SOLUTIONS</a></li>
@@ -86,7 +86,7 @@ nav ul li a {
       <li><a href="support.html">SUPPORT</a></li>
       <li><a href="tel:+15551234567">555-123-4567</a></li>
     </ul>
-  </nav>
+  </nav>-->
 </header>
 
 
