@@ -159,12 +159,6 @@ img.codropcap {
   color: white;
 }
 
-section.gallery img {
-  position: absolute;
-  display: inline-block;
-  width: 100px;
-}
-
 /*======================================
 
 Menu Styling
@@ -460,4 +454,19 @@ Gallery Styling
 ======================================*/
 .gallery {
   background-image: url(../images/midnightblue.jpg);
+}
+
+.gallery h1 {
+  padding: 130px 5px 20px 40px;
+  text-align: left;
+  font-weight: 1.250em;
+  color: white;
+  opacity: 40%;
+}
+
+.gallery a img{
+  display: inline-block;
+  margin: 10px 10px 15px 85px;
+  width: 300px;
+  border-radius: 5px;
 }
