@@ -145,7 +145,7 @@ img.codropcap {
   margin: 0 auto;
   top: 0;
   margin-top: 170px;
-  margin-left: 260px;
+  margin-left: 180px;
   font-weight: bolder;
 }
 
@@ -155,7 +155,7 @@ img.codropcap {
   max-width: 80%;
   top: 0;
   margin-top: 240px;
-  margin-left: 470px;
+  margin-left: 390px;
   color: white;
 }
 
@@ -206,7 +206,7 @@ Solutions Page Styling
 
 ======================================*/
 img.solbground {
-  opacity: 80%;
+  opacity: 90%;
 }
 
 .solcontent h2 {
@@ -289,6 +289,16 @@ Services Page Styling
 Company Page Styling
 
 ======================================*/
+.btmalign {
+  display: flex;
+}
+
+.cobground {
+  vertical-align: bottom;
+  bottom: 0;
+  align-self: flex-end;
+}
+
 .co_content p {
   font-size: 0.8889em;
   margin-top: 22px;
@@ -380,7 +390,7 @@ Form Page Styling
 
 ======================================*/
 .formbground {
-  opacity: 75%;
+  opacity: 82%;
 }
 
 .hdrcolor {
@@ -407,15 +417,15 @@ Form Page Styling
 }
 
 .contactname input {
-  width: 350px;
+  width: 341px;
 }
 
 .contactemail input {
-  width: 393px;
+  width: 379px;
 }
 
 .contactphone input {
-  width: 384px;
+  width: 370px;
 }
 
 textarea {
@@ -433,18 +443,28 @@ textarea {
   padding: 7px 15px;
   border-radius: 8px;
   color: white;
+  font-weight: bold;
   border: 1.8px solid black;
   background-color: rgba(39, 95, 129, 1);
+  box-shadow: .7px .7px 1px 0 black;
 }
 
 .contactsubmit:hover {
   opacity: 80%;
 }
 
-.spacing label {
-  font-size: 1.250em;
+/*====cannot use bc inquiry====
+.spacing label
+=============================*/
+.contactname label,
+.contactemail label,
+.contactphone label{
+  font-size: 1.111em;
   font-weight: bolder;
-  text-shadow: 2px 2px 1px black, -1.2px -1.2px 1px black, 0 0 3px black, 0 0 2px black;
+  background-color: rgba(39, 95, 129, .8);
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 3px;
 }
 
 /*======================================
@@ -453,15 +473,15 @@ Gallery Styling
 
 ======================================*/
 .gallery {
-  background-image: url(../images/midnightblue.jpg);
+  background-image: radial-gradient(rgba(39, 95, 129, 1), rgba(25, 24, 28, 1));
 }
 
 .gallery h1 {
-  padding: 130px 5px 20px 40px;
+  padding: 120px 5px 8px 40px;
   text-align: left;
   font-weight: 1.250em;
   color: white;
-  opacity: 40%;
+  opacity: 53%;
 }
 
 .gallery a img{

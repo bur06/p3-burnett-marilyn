@@ -40,6 +40,17 @@ header {
   margin-left: 10px;
 }
 
+.cogradient {
+  background: linear-gradient(rgba(39, 95, 129, 0), rgba(39, 95, 129, .3), rgba(39, 95, 129, .7), rgba(39, 95, 129, .8), rgba(39, 95, 129, .9), rgba(39, 95, 129, 1));
+  position: absolute;
+  width: 65px;
+  height: 86%;
+  bottom: 0;
+  vertical-align: bottom;
+  margin-left: 32px;
+  z-index: 99;
+}
+
 /*========optional=========
 .right-side {
   display: inline-block;
@@ -73,7 +84,7 @@ nav ul li a {
 </style>
 
 <header>
-  <div class="left-side">
+  <div class="left-side cogradient">
     <a href="index.html"><img src="images/ltrmark_blksoft.gif" alt="Quarry Logo" width="60"/></a>
   </div>
 
