@@ -11,7 +11,7 @@ Universal Styling
 }
 
 .container {
-  max-width: 1920px;
+  max-width: 1366px;
   margin: 0 auto;
   min-height: 100vh;
   object-fit: cover;
@@ -128,7 +128,7 @@ img.codropcap {
   position: fixed;
   text-align: right;
   float: right;
-  margin: 305px 405px 30px 450px;
+  margin: 305px 425px 30px 450px;
 }
 
 .supcontent3 {
@@ -458,7 +458,7 @@ textarea {
 =============================*/
 .contactname label,
 .contactemail label,
-.contactphone label{
+.contactphone label {
   font-size: 1.111em;
   font-weight: bolder;
   background-color: rgba(39, 95, 129, .8);
@@ -479,9 +479,10 @@ Gallery Styling
 .gallery h1 {
   padding: 120px 5px 8px 40px;
   text-align: left;
-  font-weight: 1.250em;
+  font-size: 1.500em;
   color: white;
   opacity: 53%;
+  text-shadow: 2px 2px 5px black, 0 0 10px black, 0 0 5px black;
 }
 
 .gallery a img{

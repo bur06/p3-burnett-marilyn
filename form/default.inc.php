@@ -11,7 +11,12 @@
   margin: 0 auto;
   min-height: 100vh;
   object-fit: cover;
-  z-index: 2;
+  z-index: 90;
+}
+
+.replytext {
+  text-align: center;
+  margin-top: 170px;
 }
 
 body {
@@ -28,9 +33,11 @@ header a:hover {
 header {
   position: absolute;
   min-width: 100%;
+  top: 0;
   z-index: 99;
   margin: 0 auto;
   padding: 25px;
+  background-color: rgba(39, 95, 129, 1);
 }
 
 .left-side {
@@ -40,18 +47,6 @@ header {
   margin-left: 10px;
 }
 
-.cogradient {
-  background: linear-gradient(rgba(39, 95, 129, 0), rgba(39, 95, 129, .3), rgba(39, 95, 129, .7), rgba(39, 95, 129, .8), rgba(39, 95, 129, .9), rgba(39, 95, 129, 1));
-  position: absolute;
-  width: 65px;
-  height: 86%;
-  bottom: 0;
-  vertical-align: bottom;
-  margin-left: 32px;
-  z-index: 99;
-}
-
-/*========optional=========
 .right-side {
   display: inline-block;
   width: 82%;
@@ -80,15 +75,14 @@ nav ul li a {
 .navcolor li a{
   color: white;
 }
-===========================*/
 </style>
 
+
 <header>
-  <div class="left-side cogradient">
-    <a href="index.html"><img src="images/ltrmark_blksoft.gif" alt="Quarry Logo" width="60"/></a>
+  <div class="left-side">
+    <a href="index.html"><img src="images/ltrmark_white.gif" alt="Quarry Logo" width="60"/></a>
   </div>
 
-  <!--optional
   <nav class="right-side">
     <ul class="navcolor">
       <li><a href="solutions.html">SOLUTIONS</a></li>
@@ -97,11 +91,13 @@ nav ul li a {
       <li><a href="support.html">SUPPORT</a></li>
       <li><a href="tel:+15551234567">555-123-4567</a></li>
     </ul>
-  </nav>-->
+  </nav>
 </header>
 
 
 <div class="container">
-  <h1>Oops! Something went wrong with your submission.</h1>
-  <p>Please try again.</p>
+  <div class="replytext">
+    <h1>Oops! Something went wrong with your submission.</h1>
+    <p>Please try again.</p>
+  </div>
 </div>
